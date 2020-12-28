@@ -1,0 +1,61 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/citypicture"
+            android:layout_below="@id/cityname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/prva" />
+
+        <TextView
+            android:id="@+id/cityname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="59dp"
+            android:layout_marginLeft="59dp"
+            android:background="?android:selectableItemBackground"
+            android:text="Title"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cityinfo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cityname"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="9dp"
+            android:background="?android:selectableItemBackground"
+            android:text="Description"
+            android:textColor="#a9a9a9"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/rsrvbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_below="@id/cityname"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="20dp"
+            android:text="Reserve"
+            />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".ReservationFromFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="4dp"
+                android:textSize="16sp"
+                android:text="Имате резервирано паркинг место во:"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/cityconf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:text="град: "
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/parkconf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:text="паркинг: "
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/dateconf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:text="датум: "
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/hourconf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:text="час: "
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="50dp"
+                android:gravity="center_horizontal" />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
